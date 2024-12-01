@@ -7,11 +7,11 @@
   box-sizing: border-box;
 }
 
-// tela até 750px o container é 100%, passou disso será 700px
-//para ajudar responsividade
+// para ajudar responsividade
+// aplicar esses estilos somente se a largura da tela (ou janela) for de 750 pixels ou menos
 @media(max-width: 750px ){
   .container{
-    width: 100px;
+    width: 100%;
     padding: 0 20px;
   }
 
