@@ -6,25 +6,79 @@ import { IProjects } from '../../interface/projects.interface';
   standalone: true,
   imports: [],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.scss'
+  styleUrl: './projects.component.scss',
 })
 export class ProjectsComponent {
-
   public arrayProjects = signal<IProjects[]>([
     {
-      src:'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/vfull.png',
       alt: 'Projeto Vida Fullstack',
       title: 'Vida Fullstack',
-      width:'100px',
+      width: '100px',
       height: '51px',
       description: 'projeto ...',
       links: [
         {
-          name:'Conheca o Blog',
-          href: 'https://vidafullstack.com'
-        }
-      ]
-
-    }
-  ])
+          name: 'Conheca o Blog',
+          href: 'https://vidafullstack.com',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: 'Projeto Vida Fullstack',
+      title: 'Vida Fullstack',
+      width: '100px',
+      height: '51px',
+      description: 'projeto ...',
+      links: [
+        {
+          name: 'Conheca o Blog',
+          href: 'https://vidafullstack.com',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: 'Projeto Vida Fullstack',
+      title: 'Vida Fullstack',
+      width: '100px',
+      height: '51px',
+      description: 'projeto ...',
+      links: [
+        {
+          name: 'Conheca o Blog',
+          href: 'https://vidafullstack.com',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: 'Projeto Vida Fullstack',
+      title: 'Vida Fullstack',
+      width: '100px',
+      height: '51px',
+      description: 'projeto ...',
+      links: [
+        {
+          name: 'Conheca o Blog',
+          href: 'https://vidafullstack.com',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: 'Projeto Vida Fullstack',
+      title: 'Vida Fullstack',
+      width: '100px',
+      height: '51px',
+      description: 'projeto ...',
+      links: [
+        {
+          name: 'Conheca o Blog',
+          href: 'https://vidafullstack.com',
+        },
+      ],
+    },
+  ]);
 }
