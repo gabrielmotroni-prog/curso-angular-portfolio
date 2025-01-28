@@ -4,7 +4,7 @@ import {
   MatDialogModule,
   MatDialogRef,
 } from '@angular/material/dialog';
-import { IProjects } from '../../../interface/projects.interface';
+import { IProjects } from '../../../../interface/projects.interface';
 
 @Component({
   selector: 'app-dialog-projects',

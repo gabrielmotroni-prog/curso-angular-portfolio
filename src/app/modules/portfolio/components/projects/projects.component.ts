@@ -1,9 +1,9 @@
 import { Component, inject, signal } from '@angular/core';
-import { IProjects } from '../../interface/projects.interface';
+import { IProjects } from '../../../interface/projects.interface';
 
 // Material
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { EDialogPanelClass } from '../enum/EDialogPanelClass.enum';
+import { EDialogPanelClass } from '../../../enum/EDialogPanelClass.enum';
 
 import { DialogProjectsComponent } from '../dialog/dialog-projects/dialog-projects.component';
 @Component({
